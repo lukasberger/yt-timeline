@@ -11,5 +11,9 @@
             "css": ["timeline.css"],
             "js": ["jquery.js", "timeline.js"]
         }
-    ]
+    ],
+
+    "icons": {
+        "48": "icon48.png"
+    }
 }
