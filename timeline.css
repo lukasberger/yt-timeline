@@ -1,0 +1,47 @@
+.timeline {
+    height: 25px;
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.avatar {
+    position: absolute;
+    display: block;
+    width: 20px; height: 20px;
+    background-size: 20px;
+}
+
+.avatar:hover {
+    width: 40px; height: 40px;
+    cursor: pointer;
+    z-index: 99;
+    background-size: 40px;
+}
+
+.comment {
+    position: absolute;
+    background-color: #ffefd5;
+    z-index: 199;
+    top: 0; left: 0;
+    padding: 4px 6px 2px 6px;
+    font-size: 12px;
+    font-family: Arial;
+    line-height: 17px;
+    text-overflow: ellipsis;
+    max-width: 250px; 
+    display: none;
+}
+
+.comment strong {
+    font-weight: bold;
+    color: #2894e6;
+}
+
+.pointer {
+    background-color: rgba(255, 239, 213, 0.5);
+    width: 1px;
+    height: 30px;
+    position: absolute;
+    z-index: 299;
+}
